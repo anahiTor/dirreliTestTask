@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
+    "target": "es6",
+    "module": "es6",
     "strict": true,
     "jsx": "preserve",
     "importHelpers": true,
@@ -21,7 +21,7 @@
       ]
     },
     "lib": [
-      "esnext",
+      "es6",
       "dom",
       "dom.iterable",
       "scripthost"
@@ -36,5 +36,6 @@
   ],
   "exclude": [
     "node_modules"
-  ]
+  ],
+  "transpileDependencies": ["vuex-persist"]
 }
